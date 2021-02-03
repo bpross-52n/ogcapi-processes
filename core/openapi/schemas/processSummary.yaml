@@ -1,5 +1,5 @@
 allOf:
-  - $ref: "descriptionType.yaml"
+  - $ref: "core/openapi/schemas/descriptionType.yaml"
   - type: object
     required:
       - version
@@ -9,12 +9,12 @@ allOf:
       jobControlOptions:
         type: array
         items:
-          $ref: "jobControlOptions.yaml"
+          $ref: "core/openapi/schemas/jobControlOptions.yaml"
       outputTransmission:
         type: array
         items:
-          $ref: "transmissionMode.yaml"
+          $ref: "core/openapi/schemas/transmissionMode.yaml"
       links:
         type: array
         items:
-          $ref: "link.yaml"
+          $ref: "core/openapi/schemas/link.yaml"

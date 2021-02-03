@@ -5,4 +5,4 @@ properties:
    supportedCRS:
       type: array
       items:
-         $ref: "supportedCRS.yaml"
+         $ref: "core/openapi/schemas/supportedCRS.yaml"
