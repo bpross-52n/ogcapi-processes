@@ -1,12 +1,12 @@
 allOf:
-  - $ref: "descriptionType.yaml"
+  - $ref: "/core/openapi/schemas/descriptionType.yaml"
   - type: object
     properties:
       input:
         oneOf:
-          - $ref: "complexDataType.yaml"
-          - $ref: "literalDataType.yaml"
-          - $ref: "boundingBoxDataType.yaml"
+          - $ref: "/core/openapi/schemas/complexDataType.yaml"
+          - $ref: "/core/openapi/schemas/literalDataType.yaml"
+          - $ref: "/core/openapi/schemas/boundingBoxDataType.yaml"
       minOccurs:
         type: integer
       maxOccurs:
@@ -16,4 +16,4 @@ allOf:
             enum:
               - unbounded
       observedProperty:
-        $ref: "observedProperty.yaml"
+        $ref: "/core/openapi/schemas/observedProperty.yaml"
