@@ -5,4 +5,4 @@ properties:
    formats:
       type: array
       items:
-         $ref: "formatDescription.yaml"
+         $ref: "core/openapi/schemas/formatDescription.yaml"

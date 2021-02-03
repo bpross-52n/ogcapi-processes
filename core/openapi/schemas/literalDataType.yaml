@@ -5,4 +5,4 @@ properties:
   literalDataDomains:
     type: array
     items:
-      $ref: "literalDataDomain.yaml"
+      $ref: "core/openapi/schemas/literalDataDomain.yaml"
