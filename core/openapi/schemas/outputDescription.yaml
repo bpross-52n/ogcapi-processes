@@ -1,11 +1,11 @@
 allOf:
-  - $ref: "descriptionType.yaml"
+  - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/descriptionType.yaml"
   - type: object
     properties:
       output:
         oneOf:
-          - $ref: "complexDataType.yaml"
-          - $ref: "literalDataType.yaml"
-          - $ref: "boundingBoxDataType.yaml"
+          - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/complexDataType.yaml"
+          - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/literalDataType.yaml"
+          - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/boundingBoxDataType.yaml"
       observedProperty:
-        $ref: "observedProperty.yaml"
+        $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/observedProperty.yaml"

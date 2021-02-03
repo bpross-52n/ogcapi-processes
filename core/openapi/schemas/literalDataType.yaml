@@ -5,4 +5,4 @@ properties:
   literalDataDomains:
     type: array
     items:
-      $ref: "literalDataDomain.yaml"
+      $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/literalDataDomain.yaml"

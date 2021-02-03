@@ -5,4 +5,4 @@ properties:
    supportedCRS:
       type: array
       items:
-         $ref: "supportedCRS.yaml"
+         $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/supportedCRS.yaml"
