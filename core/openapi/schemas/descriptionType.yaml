@@ -15,13 +15,13 @@ properties:
   metadata:
     type: array
     items:
-      $ref: "/core/openapi/schemas/metadata.yaml"
+      $ref: "metadata.yaml"
   additionalParameters:
     allOf:
-      - $ref: "/core/openapi/schemas/metadata.yaml"
+      - $ref: "metadata.yaml"
       - type: object
         properties:
           parameters:
             type: array
             items:
-              $ref: "/core/openapi/schemas/additionalParameter.yaml"
+              $ref: "additionalParameter.yaml"

@@ -2,4 +2,4 @@ type: array
 items:
    oneOf:
       - type: string
-      - $ref: "/core/openapi/schemas/range.yaml"
+      - $ref: "range.yaml"
