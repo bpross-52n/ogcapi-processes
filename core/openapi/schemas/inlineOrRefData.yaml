@@ -1,11 +1,11 @@
 type: object
 properties:
   dataType:
-    $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"
   uom:
-    $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"
   format:
-    $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/format.yaml"
+    $ref: "format.yaml"
   href:
     type: string
     format: uri

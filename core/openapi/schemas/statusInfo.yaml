@@ -22,4 +22,4 @@ properties:
    links:
       type: array
       items:
-         $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/link.yaml"
+         $ref: "link.yaml"

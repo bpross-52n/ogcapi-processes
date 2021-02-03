@@ -1,5 +1,5 @@
 allOf:
-  - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/descriptionType.yaml"
+  - $ref: "descriptionType.yaml"
   - type: object
     required:
       - version
@@ -9,12 +9,12 @@ allOf:
       jobControlOptions:
         type: array
         items:
-          $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/jobControlOptions.yaml"
+          $ref: "jobControlOptions.yaml"
       outputTransmission:
         type: array
         items:
-          $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/transmissionMode.yaml"
+          $ref: "transmissionMode.yaml"
       links:
         type: array
         items:
-          $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/link.yaml"
+          $ref: "link.yaml"

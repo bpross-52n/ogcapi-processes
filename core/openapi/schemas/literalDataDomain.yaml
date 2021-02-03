@@ -2,12 +2,12 @@ type: object
 properties:
   valueDefinition:
     oneOf:
-      - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/allowedValues.yaml"
-      - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/anyValue.yaml"
-      - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/valuesReference.yaml"
+      - $ref: "allowedValues.yaml"
+      - $ref: "anyValue.yaml"
+      - $ref: "valuesReference.yaml"
   defaultValue:
     type: string
   dataType:
-    $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"
   uom:
-    $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"

@@ -15,13 +15,13 @@ properties:
   metadata:
     type: array
     items:
-      $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/metadata.yaml"
+      $ref: "metadata.yaml"
   additionalParameters:
     allOf:
-      - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/metadata.yaml"
+      - $ref: "metadata.yaml"
       - type: object
         properties:
           parameters:
             type: array
             items:
-              $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/additionalParameter.yaml"
+              $ref: "additionalParameter.yaml"

@@ -1,9 +1,9 @@
 additionalProperties:
     oneOf:
-        - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/inlineOrRefData.yaml"
-        - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/boundingBoxData.yaml"
+        - $ref: "inlineOrRefData.yaml"
+        - $ref: "boundingBoxData.yaml"
         - type: array
           items:
               oneOf:
-                  - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/inlineOrRefData.yaml"
-                  - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/boundingBoxData.yaml"
+                  - $ref: "inlineOrRefData.yaml"
+                  - $ref: "boundingBoxData.yaml"

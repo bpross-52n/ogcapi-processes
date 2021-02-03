@@ -2,4 +2,4 @@ type: array
 items:
    oneOf:
       - type: string
-      - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/range.yaml"
+      - $ref: "range.yaml"

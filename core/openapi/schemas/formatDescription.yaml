@@ -1,5 +1,5 @@
 allOf:
-   - $ref: "https://raw.githubusercontent.com/bpross-52n/ogcapi-processes/reftest/core/openapi/schemas/format.yaml"
+   - $ref: "format.yaml"
    - type: object
      properties:
         maximumMegabytes:
