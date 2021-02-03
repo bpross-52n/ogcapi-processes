@@ -1,5 +1,5 @@
 allOf:
-   - $ref: "core/openapi/schemas/format.yaml"
+   - $ref: "format.yaml"
    - type: object
      properties:
         maximumMegabytes:

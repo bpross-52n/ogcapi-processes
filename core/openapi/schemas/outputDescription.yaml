@@ -1,11 +1,11 @@
 allOf:
-  - $ref: "core/openapi/schemas/descriptionType.yaml"
+  - $ref: "descriptionType.yaml"
   - type: object
     properties:
       output:
         oneOf:
-          - $ref: "core/openapi/schemas/complexDataType.yaml"
-          - $ref: "core/openapi/schemas/literalDataType.yaml"
-          - $ref: "core/openapi/schemas/boundingBoxDataType.yaml"
+          - $ref: "complexDataType.yaml"
+          - $ref: "literalDataType.yaml"
+          - $ref: "boundingBoxDataType.yaml"
       observedProperty:
-        $ref: "core/openapi/schemas/observedProperty.yaml"
+        $ref: "observedProperty.yaml"

@@ -1,11 +1,11 @@
 additionalProperties:
   oneOf:
-    - $ref: "core/openapi/schemas/inlineOrRefData.yaml"
-    - $ref: "core/openapi/schemas/boundingBoxData.yaml"
-    - $ref: "core/openapi/schemas/input.yaml"
+    - $ref: "inlineOrRefData.yaml"
+    - $ref: "boundingBoxData.yaml"
+    - $ref: "input.yaml"
     - type: array
       items:
         oneOf:
-          - $ref: "core/openapi/schemas/inlineOrRefData.yaml"
-          - $ref: "core/openapi/schemas/boundingBoxData.yaml"
-          - $ref: "core/openapi/schemas/input.yaml"
+          - $ref: "inlineOrRefData.yaml"
+          - $ref: "boundingBoxData.yaml"
+          - $ref: "input.yaml"

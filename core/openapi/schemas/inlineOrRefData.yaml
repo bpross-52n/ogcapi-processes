@@ -1,11 +1,11 @@
 type: object
 properties:
   dataType:
-    $ref: "core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"
   uom:
-    $ref: "core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"
   format:
-    $ref: "core/openapi/schemas/format.yaml"
+    $ref: "format.yaml"
   href:
     type: string
     format: uri

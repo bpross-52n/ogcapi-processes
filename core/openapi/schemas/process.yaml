@@ -1,12 +1,12 @@
 allOf:
-   - $ref: "core/openapi/schemas/processSummary.yaml"
+   - $ref: "processSummary.yaml"
    - type: object
      properties:
         inputs:
            type: array
            items:
-              $ref: "core/openapi/schemas/inputDescription.yaml"
+              $ref: "inputDescription.yaml"
         outputs:
            type: array
            items:
-              $ref: "core/openapi/schemas/outputDescription.yaml"
+              $ref: "outputDescription.yaml"

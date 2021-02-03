@@ -1,3 +1,3 @@
 type: array
 items:
-  $ref: "core/openapi/schemas/processSummary.yaml"
+  $ref: "processSummary.yaml"

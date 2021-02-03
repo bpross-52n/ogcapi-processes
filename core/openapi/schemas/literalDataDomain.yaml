@@ -2,12 +2,12 @@ type: object
 properties:
   valueDefinition:
     oneOf:
-      - $ref: "core/openapi/schemas/allowedValues.yaml"
-      - $ref: "core/openapi/schemas/anyValue.yaml"
-      - $ref: "core/openapi/schemas/valuesReference.yaml"
+      - $ref: "allowedValues.yaml"
+      - $ref: "anyValue.yaml"
+      - $ref: "valuesReference.yaml"
   defaultValue:
     type: string
   dataType:
-    $ref: "core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"
   uom:
-    $ref: "core/openapi/schemas/nameReferenceType.yaml"
+    $ref: "nameReferenceType.yaml"

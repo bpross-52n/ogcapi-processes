@@ -2,6 +2,6 @@ additionalProperties:
    type: object
    properties:
       format:
-         $ref: "core/openapi/schemas/format.yaml"
+         $ref: "format.yaml"
       transmissionMode:
-         $ref: "core/openapi/schemas/transmissionMode.yaml"
+         $ref: "transmissionMode.yaml"
