@@ -2,4 +2,4 @@ name: processID
 in: path
 required: true
 schema:
-  $ref: '../../schemas/dynamic/processes-list.yaml'
+  type: string
