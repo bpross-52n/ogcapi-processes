@@ -10,7 +10,7 @@ allOf:
            input values from the corresponding process input.  The server
            offering this collection is referred to as the "value source server".
         type: string
-        format: uri-reference
+        format: uri
       bbox:
         description: |-
           Only resources that have a geometry that intersects the bounding box
@@ -151,7 +151,7 @@ allOf:
             * WGS 84h longitude/latitude/ellipsoidal height
               (http://www.opengis.net/def/crs/OGC/0/CRS84h_
         type: string
-        format: uri-reference
+        format: uri
       filterLang:
         description: |-
            Indicates the language used to encode a filter expression specified

@@ -3,7 +3,7 @@ allOf:
      properties:
         process:
           type: string
-          format: uri-reference
+          format: uri
           description: URI to the process description end point (i.e., `.../processes/{processId}`)
         inputs:
           additionalProperties:

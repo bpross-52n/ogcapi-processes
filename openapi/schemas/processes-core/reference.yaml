@@ -4,5 +4,5 @@ required:
 properties:
   "$ref":
     type: string
-    format: uri-reference
+    format: uri
 additionalProperties: false

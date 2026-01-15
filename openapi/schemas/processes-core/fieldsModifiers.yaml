@@ -24,7 +24,7 @@ properties:
       - fes
   filter-crs:
     type: string
-    format: uri-reference
+    format: uri
   aliases:
     type: object
     additionalProperties:

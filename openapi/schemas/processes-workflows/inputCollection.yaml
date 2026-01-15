@@ -5,5 +5,5 @@ allOf:
    properties:
      collection:
         type: string
-        format: uri-reference
+        format: uri
  - $ref: fieldsModifiers.yaml
